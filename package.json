@@ -1,0 +1,27 @@
+{
+  "name": "ros2-nav2",
+  "version": "1.0.0",
+  "description": "practicing ros2 nav2 programming",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "husky": "^8.0.3",
+    "standard-version": "^9.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suho0515/ros2-nav2.git"
+  },
+  "author": "suho0515",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suho0515/ros2-nav2/issues"
+  },
+  "homepage": "https://github.com/suho0515/ros2-nav2#readme"
+}
