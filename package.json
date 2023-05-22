@@ -1,6 +1,6 @@
 {
   "name": "ros2-nav2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "practicing ros2 nav2 programming",
   "main": "index.js",
   "directories": {
