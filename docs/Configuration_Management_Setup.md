@@ -23,6 +23,14 @@
 
 2. `npm install --save-dev standard-version` 명령어를 실행하여 standard-version을 설치합니다.
 
+3. `package.json` 파일의 `"scripts"` 섹션에 `release` 스크립트를 추가합니다:
+
+    ```json
+    "scripts": {
+      "release": "standard-version"
+    },
+    ```
+
 ### 단계 3: husky와 commitlint 설치
 
 1. `npm install --save-dev husky @commitlint/cli @commitlint/config-conventional` 명령어를 실행하여 husky와 commitlint를 설치합니다.
@@ -44,5 +52,37 @@
       "extends": ["@commitlint/config-conventional"]
     }
     ```
+package.json
+```
+{
+  "name": "ros2-nav2",
+  "version": "1.0.1",
+  "description": "practicing ros2 nav2 programming",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "husky": "^8.0.3",
+    "standard-version": "^9.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suho0515/ros2-nav2.git"
+  },
+  "author": "suho0515",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suho0515/ros2-nav2/issues"
+  },
+  "homepage": "https://github.com/suho0515/ros2-nav2#readme"
+}
 
-축하합니다! 이제 standard-version, husky, 그리고 commitlint를 이용하여 형상관리가 설정되었습니다.
+```
+
+축하합니다! 이제 standard-version, husky, 그리고 commitlint를 이용하여 형상관리가 설정되었습니다. 향후 코드 변경사항을 commit할 때마다 commitlint가 실행되어 commit 메시지를 검사하고, `npm run release` 명령을 통해 새로운 버전을 생성하고 릴리즈 노트를 자동으로 업데이트할 수 있습니다.
