@@ -31,7 +31,9 @@
   - [6.1.1.3. Create the necessary directories and files for the SLAM node](./6.1.1.3.%20Create%20the%20necessary%20directories%20and%20files%20for%20the%20SLAM%20node.md)
   
 - 6.1.2. Initialize SLAM Node
-  - [6.1.2.1. Import necessary libraries and packages](./6.1.2.1.%20Import%20necessary%20libraries%20and%20packages.md)
+  - 6.1.2.1. Import necessary libraries and packages
+    - [Implement](./6.1.2.1.%20Implement.md)
+    - [Verification](./6.1.2.1.%20Verification.md)
   - [6.1.2.2. Create a SLAM node](./6.1.2.2.%20Create%20a%20SLAM%20node.md)
   - [6.1.2.3. Set parameters and configurations for SLAM](./6.1.2.3.%20Set%20parameters%20and%20configurations%20for%20SLAM.md)
   - [6.1.2.4. Initialize the map](./6.1.2.4.%20Initialize%20the%20map.md)
