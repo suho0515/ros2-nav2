@@ -1,6 +1,6 @@
 {
   "name": "ros2-nav2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "devDependencies": {
     "husky": "^8.0.3",
     "standard-version": "^9.5.0"
