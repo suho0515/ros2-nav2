@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/suho0515/ros2-nav2/compare/v0.0.11...v0.0.12) (2023-05-27)
+
+
+### Features
+
+* working till sensor data processing ([7a9eaf0](https://github.com/suho0515/ros2-nav2/commit/7a9eaf042ff147104a312b422f65d1098bb6e8e3))
+
 ### [0.0.11](https://github.com/suho0515/ros2-nav2/compare/v0.0.10...v0.0.11) (2023-05-27)
 
 
