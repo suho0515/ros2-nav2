@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/suho0515/ros2-nav2/compare/v0.0.5...v0.0.6) (2023-05-27)
+
+
+### Features
+
+* add Dockerfile and docker-compose.yml ([218517d](https://github.com/suho0515/ros2-nav2/commit/218517dc3ee00ccdb3224ec91aafe9704c71ac09))
+
 ### [0.0.5](https://github.com/suho0515/ros2-nav2/compare/v0.0.4...v0.0.5) (2023-05-27)
 
 ### [0.0.4](https://github.com/suho0515/ros2-nav2/compare/v0.0.3...v0.0.4) (2023-05-27)
