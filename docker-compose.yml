@@ -2,9 +2,9 @@ version: '3'
 services:
   turtlebot3_simulator:
     image: ros2_turtlebot3
-    volumes:
-      - ./turtlebot3_ws:/root/turtlebot3_ws
+    environment:
+      - DISPLAY=host.docker.internal:0
+      - LIBGL_ALWAYS_INDIRECT=0
     command: bash -c "source /opt/ros/humble/setup.bash && \
-                      colcon build && \
-                      source /root/turtlebot3_ws/install/setup.bash && \
+                      export TURTLEBOT3_MODEL=waffle && \
                       ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py"
