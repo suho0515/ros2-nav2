@@ -10,6 +10,27 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
+include_directories(include ${catkin_INCLUDE_DIRS} /opt/ros/humble/include)
+
+# Add message dependencies
+# set(msg_deps
+#   "sensor_msgs"
+# )
+
+# Generate messages
+# rosidl_generate_interfaces(${PROJECT_NAME}
+#   ${msg_deps}
+# )
+
+# Add executables and link dependencies
+add_executable(slam_node src/slam_node.cpp)
+ament_target_dependencies(slam_node rclcpp sensor_msgs)
+
+# Install executables
+install(TARGETS slam_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

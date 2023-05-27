@@ -1,20 +1,21 @@
-FROM ros2_turtlebot3
+FROM osrf/ros:humble-desktop-full
+
+# Install Turtlebot3 packages
+RUN apt-get update && apt-get install -y \
+    ros-humble-turtlebot3 \
+    ros-humble-turtlebot3-simulations
 
 # Set the working directory
 WORKDIR /workspace
 
 # Copy the source code to the container
-COPY . /workspace
-
-# Install additional dependencies, if any
-# RUN /bin/bash -c "apt-get update"
-# RUN /bin/bash -c "apt-get install -y <additional-packages>"
+COPY ./workspace/src /root/workspace/src
 
 # Set environment variables, if needed
 # ENV ENV_VARIABLE=value
 
 # Run any necessary commands, e.g., build the project
-RUN /bin/bash -c "source /opt/ros/humble/setup.bash && colcon build"
+RUN /bin/bash -c "source /opt/ros/humble/setup.bash && colcon build --symlink-install"
 
 # Set the default command to launch the development environment
 CMD ["bash"]
