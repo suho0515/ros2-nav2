@@ -9,6 +9,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 include_directories(include ${catkin_INCLUDE_DIRS} /opt/ros/humble/include)
 
@@ -24,7 +26,7 @@ include_directories(include ${catkin_INCLUDE_DIRS} /opt/ros/humble/include)
 
 # Add executables and link dependencies
 add_executable(slam_node src/slam_node.cpp)
-ament_target_dependencies(slam_node rclcpp sensor_msgs)
+ament_target_dependencies(slam_node rclcpp sensor_msgs nav_msgs geometry_msgs)
 
 # Install executables
 install(TARGETS slam_node

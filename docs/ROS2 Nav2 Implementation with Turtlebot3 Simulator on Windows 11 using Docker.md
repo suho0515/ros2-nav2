@@ -36,19 +36,19 @@
   - [6.1.2.3. Set parameters and configurations for SLAM](./6.1.2.3.%20Set%20parameters%20and%20configurations%20for%20SLAM.md)
   - [6.1.2.4. Initialize the map](./6.1.2.4.%20Initialize%20the%20map.md)
   - [6.1.2.5. Subscribe to sensor data](./6.1.2.5.%20Subscribe%20to%20sensor%20data.md)
-  - 6.1.2.6. Implement SLAM algorithm
-  - 6.1.2.7. Update the map with new sensor data
-  - 6.1.2.8. Publish the updated map
-  - 6.1.2.9. Handle robot movement and localization updates
-  - 6.1.2.10. Handle loop closures and landmark recognition
+  - [6.1.2.6. Implement SLAM algorithm](./6.1.2.6.%20Implement%20SLAM%20algorithm.md)
+  - [6.1.2.7. Update the map with new sensor data](./6.1.2.7.%20Update%20the%20map%20with%20new%20sensor%20data.md)
+  - [6.1.2.8. Publish the updated map](./6.1.2.8.%20Publish%20the%20updated%20map.md)
+  - [6.1.2.9. Handle robot movement and localization updates](./6.1.2.9.%20Handle%20robot%20movement%20and%20localization%20updates.md)
+  - [6.1.2.10. Handle loop closures and landmark recognition](./6.1.2.10.%20Handle%20loop%20closures%20and%20landmark%20recognition.md)
   
 - 6.1.3. Implement Sensor Data Processing
-  - 6.1.3.1. Receive sensor data
-  - 6.1.3.2. Preprocess sensor data
-  - 6.1.3.3. Extract features from sensor data
-  - 6.1.3.4. Associate features with map landmarks
-  - 6.1.3.5. Update sensor data with feature associations
-  - 6.1.3.6. Perform sensor fusion
+  - [6.1.3.1. Receive sensor data](./6.1.3.1.%20Receive%20sensor%20data.md)
+  - [6.1.3.2. Preprocess sensor data](./6.1.3.2.%20Preprocess%20sensor%20data.md)
+  - [6.1.3.3. Extract features from sensor data](./6.1.3.3.%20Extract%20features%20from%20sensor%20data.md)
+  - [6.1.3.4. Associate features with map landmarks](./6.1.3.4.%20Associate%20features%20with%20map%20landmarks.md)
+  - [6.1.3.5. Update sensor data with feature associations](./6.1.3.5.%20Update%20sensor%20data%20with%20feature%20associations.md)
+  - [6.1.3.6. Perform sensor fusion](./6.1.3.6.%20Perform%20sensor%20fusion.md)
   
 - 6.1.4. Implement Odometry and Motion Model
   - 6.1.4.1. Receive odometry data
