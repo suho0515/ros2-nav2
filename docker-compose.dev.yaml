@@ -13,7 +13,7 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     volumes:
-      - .:/workspace
+      - ./workspace:/root/workspace
     environment:
       - DISPLAY=host.docker.internal:0
       - LIBGL_ALWAYS_INDIRECT=0
