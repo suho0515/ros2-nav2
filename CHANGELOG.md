@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/suho0515/ros2-nav2/compare/v0.0.10...v0.0.11) (2023-05-27)
+
+
+### Features
+
+* created slam package ([34bf739](https://github.com/suho0515/ros2-nav2/commit/34bf739dc7ae4dced53db957c6c7bb082484c1d6))
+
 ### [0.0.10](https://github.com/suho0515/ros2-nav2/compare/v0.0.9...v0.0.10) (2023-05-27)
 
 
