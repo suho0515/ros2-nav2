@@ -19,8 +19,7 @@
 ## 4. Turtlebot3 Simulator Setup
 ### [4.1. Install Turtlebot3 Packages in Docker using Dockerfile](./4.1.%20Install%20Turtlebot3%20Packages%20in%20Docker%20using%20Dockerfile.md)
 ### [4.2 Setting up the X server on Windows 11](./4.2%20Setting%20up%20the%20X%20server%20on%20Windows%2011.md)
-### [4.3. Setting up the GPU for gazebo in Windows 11](./4.3.%20Launch%20Turtlebot3%20Simulator%20using%20docker-compose.md)
-### [4.4. Launch Turtlebot3 Simulator using docker-compose](./4.4.%20Launch%20Turtlebot3%20Simulator%20using%20docker-compose.md)
+### [4.3. Launch Turtlebot3 Simulator using docker-compose](./4.3.%20Launch%20Turtlebot3%20Simulator%20using%20docker-compose.md)
 ### 4.4. Verify Sensor Data from Simulator
 
 ## 5. Implement SLAM (Simultaneous Localization and Mapping)
