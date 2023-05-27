@@ -11,7 +11,6 @@
 ### [2.2. Install and Configure Standard-Version for Versioning](./2.2.%20Install%20and%20Configure%20Standard-Version%20for%20Versioning.md)
 ### [2.3. Install and Configure Husky for Git Hooks](./2.3.%20Install%20and%20Configure%20Husky%20for%20Git%20Hooks.md)
 ### [2.4. Install and Configure Commitlint for Commit Conventions](./2.4.%20Install%20and%20Configure%20Commitlint%20for%20Commit%20Conventions.md)
-### 2.5. Install and Configure ESLint for Code Linting
 
 ## 3. Docker Setup
 ### 3.1. Pull ROS2 Docker Image
